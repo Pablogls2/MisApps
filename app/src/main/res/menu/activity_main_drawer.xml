@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Mis Apps">
+            <menu>
+                <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_rss"
+                    android:icon="@drawable/ic_rss"
+                    android:title="@string/menu_rss" />
+                <item
+                    android:id="@+id/nav_juegos"
+                    android:icon="@drawable/ic_juego"
+                    android:title="@string/menu_juegos" />
+
+                <item
+                    android:id="@+id/nav_fotos"
+                    android:icon="@drawable/ic_fotos"
+                    android:title="@string/menu_fotos" />
+                <item
+                    android:id="@+id/nav_musica"
+                    android:icon="@drawable/ic_musica"
+                    android:title="@string/menu_musica" />
+                <item
+                    android:id="@+id/nav_video"
+                    android:icon="@drawable/ic_video"
+                    android:title="@string/menu_video" />
+                <item
+                    android:id="@+id/nav_sensor"
+                    android:icon="@drawable/ic_sensor"
+                    android:title="@string/menu_sensor" />
+                <item
+                    android:id="@+id/nav_mapa"
+                    android:icon="@drawable/ic_mapa"
+                    android:title="@string/menu_map" />
+            </menu>
+        </item>
+
+
+    </group>
+
+    <item android:title="Acerca De">
+        <menu>
+            <item
+                android:id="@+id/nav_acercade"
+                android:icon="@drawable/ic_f"
+                android:title="@string/menu_acerca" />
+
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/ic_contacto"
+                android:title="@string/menu_contacto" />
+
+
+        </menu>
+    </item>
+
+</menu>

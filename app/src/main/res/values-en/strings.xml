@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Apps</string>
+    <string name="app_welcome">Welcome to my apps</string>
+    <string name="c_Enviar">send:</string>
+    <string name="c_correo">email:</string>
+    <string name="c_nombre">Name:</string>
+    <string name="cb_contacto">Contact:</string>
+    <string name="detalleJuegoAdd">Add:</string>
+    <string name="detalleJuegoFecha">Date:</string>
+    <string name="detalleJuegoPlataforma">Platform:</string>
+    <string name="detalleJuegoPrecio">Price:</string>
+    <string name="detalleJuegoTitulo">Title:</string>
+    <string name="menu_acerca">About</string>
+    <string name="menu_contacto">Contact:</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_juegos">Games</string>
+    <string name="menu_rss">Rss Reader</string>
+    <string name="nav_header_title">My Apps</string>
+    <string name="menu_musica">Music</string>
+    <string name="menu_fotos">Carrusel</string>
+    <string name="menu_video">Video</string>
+    <string name="sensor_acel">"Aceleration: "</string>
+    <string name="sensor_campo">Magnetic Field:</string>
+    <string name="sensor_giro">" Gyroscope"</string>
+    <string name="sensor_grav">"Gravity: "</string>
+    <string name="sensor_orien">"Orientation: "</string>
+    <string name="sensor_prox">"Proximity: "</string>
+    <string name="menu_mapa">Map</string>
+    <string name="menu_map">Map</string>
+</resources>

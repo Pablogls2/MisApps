@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rss.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_rss" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_rss"
+            app:destination="@id/nav_rss" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_rss"
+        android:name="com.example.rss.ui.rss.RssFragment"
+        android:label="@string/menu_rss"
+        tools:layout="@layout/fragment_rss" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_AcercaDe"
+            app:destination="@id/nav_acercade" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_acercade"
+        android:name="com.example.rss.ui.acercaDe.AcercaDeFragment"
+        android:label="@string/menu_acerca"
+        tools:layout="@layout/fragment_acercade" >
+        <action
+            android:id="@+id/action_nav_AcercaDe_to_nav_contacto"
+            app:destination="@id/nav_contacto" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="com.example.rss.ui.Contacto.ContactoFragment"
+        android:label="@string/menu_contacto"
+        tools:layout="@layout/contacto_fragment" >
+        <action
+            android:id="@+id/action_nav_contacto_to_nav_juegos"
+            app:destination="@id/nav_juegos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_juegos"
+        android:name="com.example.rss.ui.Juegos.Lista_Juegos"
+        android:label="@string/menu_juegos"
+        tools:layout="@layout/lista_juegos_fragment" />
+
+    <fragment
+        android:id="@+id/nav_fotos"
+        android:name="com.example.rss.ui.carrusel.CarruselFotos"
+        android:label="@string/menu_fotos"
+        tools:layout="@layout/fragment_carrusel_fotos" />
+
+    <fragment
+        android:id="@+id/nav_musica"
+        android:name="com.example.rss.ui.musica.ReproductorMusica"
+        android:label="@string/menu_musica"
+        tools:layout="@layout/fragment_reproductor_musica" />
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.rss.ui.video.Video"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="com.example.rss.ui.sensores.sensor"
+        android:label="@string/menu_sensor"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="com.example.rss.ui.mapas.mapa"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_mapa" />
+
+</navigation>

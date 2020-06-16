@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Mis Apps</string>
+    <string name="app_welcome">Bienvenido a mis aplicaciones </string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">MisApps</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_rss">Lector Rss</string>
+    <string name="menu_acerca">AcercaDe</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_juegos">Juegos</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_musica">Musica</string>
+    <string name="menu_fotos">Carrusel</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_sensor" translatable="false">Sensor</string>
+    <string name="menu_map">Mapa</string>
+
+    <string name="cb_contacto">Contacto</string>
+    <string name="c_nombre">Nombre: </string>
+    <string name="c_correo">Correo: </string>
+    <string name="c_Enviar">Enviar </string>
+
+    <string name="detalleJuegoTitulo">Titulo: </string>
+    <string name="detalleJuegoPlataforma">Plataforma: </string>
+    <string name="detalleJuegoPrecio">Precio: </string>
+    <string name="detalleJuegoFecha">Fecha de salida : </string>
+    <string name="detalleJuegoAdd">Añadir </string>
+
+
+    <string name="sensor_prox">Proximidad:  </string>
+    <string name="sensor_acel">Aceleración:  </string>
+    <string name="sensor_grav">Gravedad:  </string>
+    <string name="sensor_orien">Orientación:  </string>
+    <string name="sensor_campo">Campo Magnetico:  </string>
+    <string name="sensor_giro">Giroscopio:  </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_maps_borrame" translatable="false">Map</string>
+
+
+</resources>

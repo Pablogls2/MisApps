@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/ButonsLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+        <ImageButton android:id="@+id/btnVideoPlay"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_play"/>
+
+        <ImageButton
+            android:id="@+id/btnVideoExaminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_folder" />
+
+        <EditText
+            android:id="@+id/etVideoUrl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <VideoView android:id="@+id/vvVideoRepro"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ButonsLayout"/>
+</RelativeLayout>

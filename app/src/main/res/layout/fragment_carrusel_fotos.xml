@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:coverflow="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="100dp"
+    android:paddingTop="100dp"
+    android:paddingRight="100dp"
+    android:paddingBottom="100dp"
+    tools:context=".MainActivity">
+
+    <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+        android:id="@+id/coverflow"
+        android:layout_width="400dp"
+        android:layout_height="631dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        coverflow:coverHeight="150dp"
+        coverflow:coverWidth="100dp"
+        coverflow:maxScaleFactor="1.5"
+        coverflow:reflectionGap="0px"
+        coverflow:rotationThreshold="0.5"
+        coverflow:scalingThreshold="0.5"
+        coverflow:spacing="0.6" />
+</RelativeLayout>
